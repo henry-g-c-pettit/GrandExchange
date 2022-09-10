@@ -4,6 +4,8 @@ import { View, Text } from "react-native";
 import { ItemType, ItemName } from "./SubInfo";
 import { COLORS, SIZES, FONTS } from "../constants";
 
+//used to write out the descriptions in details page
+
 const DetailsDesc = ({ data }) => {
   const [text] = useState(data.description);
   return (

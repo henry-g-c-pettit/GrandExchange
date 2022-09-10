@@ -6,6 +6,9 @@ import { COLORS, SIZES, SHADOWS, assets } from "../constants";
 import { ItemType, ItemName } from "./SubInfo";
 import { RectButton, CircleButton } from "./Button";
 
+//this is the item cards the things are shown on
+//is only used for home screen as details screen only needs the one
+
 const ItemCard = ({ data }) => {
   const navigation = useNavigation();
 

@@ -3,6 +3,8 @@ import { View, Image, Text } from "react-native";
 
 import { SIZES, FONTS, COLORS, assets } from "../constants";
 
+//is where i pull the from local data to get text for other areas
+
 export const ItemName = ({ title, titleSize }) => {
   return (
     <View>

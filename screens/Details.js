@@ -4,6 +4,8 @@ import { View, SafeAreaView, Image, StatusBar } from "react-native";
 import { SIZES, assets } from "../constants";
 import { CircleButton, DetailsDesc, FocusedStatusBar } from "../components";
 
+//screen to show more details on items
+
 const DetailsHeader = ({ data, navigation }) => (
   <View style={{ width: "100%", height: 373 }}>
     <Image
