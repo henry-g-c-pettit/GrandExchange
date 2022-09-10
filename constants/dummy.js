@@ -1,5 +1,7 @@
 import assets from "./assets";
 
+//is the local database i use. is just small as ran out of time
+
 const ItemData = [
   {
     id: "Item-01",

@@ -5,6 +5,9 @@ import { COLORS, FONTS, SIZES, assets } from "../constants";
 
 import { CircleButton } from "./Button";
 
+//makes the header panel on home screen
+//all objects above first item is made here
+
 const HomeHeader = ({ onSearch }) => {
   return (
     <View

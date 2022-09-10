@@ -13,6 +13,8 @@ import item04 from "../assets/images/reaper.png";
 
 import favorites from "../assets/images/favorites.png";
 
+//get image assets from folder
+
 export default {
   eth,
   heart,

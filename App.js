@@ -6,6 +6,8 @@ import { useFonts } from "expo-font";
 import Home from "./screens/Home";
 import Details from "./screens/Details";
 
+//app setup
+
 const theme = {
   ...DefaultTheme,
   colors: {
@@ -17,6 +19,7 @@ const theme = {
 const Stack = createStackNavigator();
 
 const App = () => {
+  //get the fonts
   const [loaded] = useFonts({
     InterBold: require("./assets/fonts/Inter-Bold.ttf"),
     InterSemiBold: require("./assets/fonts/Inter-SemiBold.ttf"),
@@ -28,6 +31,7 @@ const App = () => {
   if (!loaded) return null;
 
   return (
+    //this is where all the pages are piled together to get between the pages
     <NavigationContainer theme={theme}>
       <Stack.Navigator
         screenOptions={{

@@ -3,7 +3,10 @@ import { TouchableOpacity, Text, Image } from "react-native";
 
 import { COLORS, SIZES, FONTS, SHADOWS } from "../constants";
 
+//button making
+
 export const CircleButton = ({ imgUrl, handlePress, ...props }) => {
+  //where circle buttons are made for like and favorites buttons
   return (
     <TouchableOpacity
       style={{
@@ -30,6 +33,7 @@ export const CircleButton = ({ imgUrl, handlePress, ...props }) => {
 
 export const RectButton = ({ minWidth, fontSize, handlePress, ...props }) => {
   return (
+    //is where button for more info is made
     <TouchableOpacity
       style={{
         backgroundColor: COLORS.primary,
